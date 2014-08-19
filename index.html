@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Masonry</title>
+		<link rel="stylesheet" type="text/css" href="css/ftw-css.css">
+	</head>
+
+	<body>
+			<div id="ftw-container" class="js-masonry">
+				<div class="item large-rock">
+					<span class="title">10 Ways Successful People Start Their Days</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">NYC As You've Never Seen It Before</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">Art Prints Under $100</span>
+				</div>
+				<div class="item large-rock">
+					<span class="title">This Is How Theory Does Gymwear</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">HAIM's New Music Video</span>
+				</div>
+				<div class="item large-rock">
+					<span class="title">Your Facebook Status</span>
+				</div>
+				<div class="item large-rock">
+					<span class="title">Things You Should Know That Your Boss May Not Be Telling You</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">The Best Things To Shop This Fall</span>
+				</div>
+				<div class="item large-rock">
+					<span class="title">8 Things You Need To Know This AM</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">The 35 Most Iconic On-Stage Looks Of All Time</span>
+				</div>
+				<div class="item small-rock">
+					<span class="title">Vintage Style Stalking At The Jazz Age Lawn Party</span>
+				</div>
+			</div>
+	
+	<script language="javascript" type="text/javascript" src="lib/masonry3-1-5.js"></script>
+	<script language="javascript" type="text/javascript" src="lib/jquery-1-11-1.js"></script>
+	<script>
+	$(document).ready(function(){
+		var container = document.querySelector('#ftw-container');
+		var msnry = new Masonry( container, {
+  			
+  			// options...
+  			itemSelector: '.item',
+  			columnWidth: 200
+		});
+	});
+	</script>
+
+	</body>
+
+</html>
